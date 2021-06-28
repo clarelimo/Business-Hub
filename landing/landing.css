@@ -6,3 +6,7 @@
 .courses a{
     color: black;
 }
+
+.courses a:hover{
+    color: #467092;
+}
