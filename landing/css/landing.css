@@ -20,19 +20,3 @@ body{
 .info{
     line-height: 50px;
 }
-.fa{
-    padding: 20px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    width: 30px;
-    margin: 5px,2px;
-    border-radius: 50%;
-    background: black;
-    color: white;
-}
-
-.fa:hover{
-    opacity: 0.8;
-    color: white;
-}
