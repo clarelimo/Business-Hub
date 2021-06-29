@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-    margin-top: 100px;
+    margin-top: 0px;
 }
 .courses{
     background-color: #E8F0F9;
@@ -32,6 +32,31 @@ body{
 }
 #nav-bar, footer{
     background-color: black;
+}
+.bgform{
+    position: absolute;
+width: 489px;
+height: 610px;
+left: 446px;
+top: 207px;
+margin-left: 10%;
+margin-top: -6%;
+border: 2px solid #467092;
+box-sizing: border-box;
+border-radius: 30px;
+}
+.topbgform{
+    position: absolute;
+width: 489px;
+height: 610px;
+left: 460px;
+top: 221px;
+
+border: 2px solid #467092;
+box-sizing: border-box;
+border-radius: 30px;
+margin-top: -44%;
+    margin-left: -93%;
 }
 .fa{
     padding: 20px;
