@@ -1,0 +1,76 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.h1{
+    margin-left: 15%;
+}
+
+.container{
+    margin-top: 0px;
+}
+.courses{
+    background-color: #E8F0F9;
+    font-size: 36px;
+}
+
+.courses a{
+    color: black;
+}
+
+.courses a:hover{
+    color: #467092;
+}
+.info{
+    line-height: 50px;
+}
+#nav-bar a{
+    color: #467092;
+    font-size: 20px;
+    
+}
+#nav-bar, footer{
+    background-color: black;
+}
+.bgform{
+    position: absolute;
+width: 489px;
+height: 610px;
+left: 446px;
+top: 207px;
+margin-left: 10%;
+margin-top: -6%;
+border: 2px solid #467092;
+box-sizing: border-box;
+border-radius: 30px;
+}
+.topbgform{
+    position: absolute;
+width: 489px;
+height: 610px;
+left: 460px;
+top: 221px;
+
+border: 2px solid #467092;
+box-sizing: border-box;
+border-radius: 30px;
+margin-top: -44%;
+    margin-left: -93%;
+}
+.fa{
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 30px;
+    margin: 5px,2px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+}
+
+.fa:hover{
+    opacity: 0.8;
+    color: white;
+}
