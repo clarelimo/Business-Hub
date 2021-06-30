@@ -119,27 +119,48 @@
                 </label>
             </div>
         </div>
+        <div class="container">
+          <div class="form-bg">  
+            <div class="container">
+              <form>
+                <div class="row justify-content-center ">
+                    <div class="col">
+                      <input type="text" class="form-control" id="name" placeholder="Name...">
+                    </div>
+                    <div class="col">
+                      <input type="email" class="form-control" id="email" placeholder="Email...">
+                    </div>
+                  </div>
+            </form>
+            </div>                        
+              
+          </div>
+      </div>
         <div class="submit-offer mt-5 text-center">
           <button type="submit" id="offerbtn">Submit</button>
         </div>
-        <div class="container text-center w-25" id="orders-display">
-          
-          <table class="table table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Branding Style</th>
-              </tr>
-            </thead>
-            <tbody id="total-orders">
-              <tr>
-                <td id="brandingname"></td>
-              </tr>
-            </tbody>
-          </table> 
-          <p id="brandingtotalprice"></p>
+        <div class="container text-center w-50" id="orders-display">
+          <div class="row">
+            <div class="col">
+              <table class="table table-bordered table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">Branding Style</th>
+                  </tr>
+                </thead>
+                <tbody id="total-orders">
+                  <tr>
+                    <td id="brandingname"></td>
+                  </tr>
+                </tbody>
+              </table> 
+              <p id="brandingtotalprice"></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
     <!-- Footer -->
     <footer class="text-center text-white">
         <div class="container p-4">
