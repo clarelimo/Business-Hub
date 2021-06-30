@@ -2,3 +2,6 @@
     color: #467092;
     font-size: 20px;
 }
+#nav-bar, footer{
+    background-color: black;
+}
