@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./landing/js/jquery.js"></script>
-    <script src="./landing/js/bootstrap.min.js"></script>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../landing/js/branding.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -36,11 +37,11 @@
     <div class="container-fluid courses" >
         <nav id="coursesNavBar" class="navbar navbar-light px-3 justify-content-center">
             <ul class="nav  nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="../landing/branding.html">Branding</a>
+              </li>
                 <li class="nav-item">
                   <a class="nav-link"  href="../landing/registration.html">Registration</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../landing/branding.html">Branding</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="../landing/marketing.html">Marketing</a>
@@ -64,8 +65,8 @@
       <div class="row">
         <div class="col-md-3">
             <div class="custom-control custom-checkbox image-checkbox">
-                <input type="checkbox" class="custom-control-input" id="ck1a">
-                <label class="custom-control-label" for="ck1a">
+                <input type="checkbox" class="custom-control-input" id="logo" name="brandings" value="Logo">
+                <label class="custom-control-label" for="logo">
                   <div class="card">
                     <img src="../landing/assets/logo.jpeg" alt="Logo" id="brand-img" class="img-fluid">
                     <div class="card-body">
@@ -78,7 +79,7 @@
         </div>
         <div class="col-md-3">
             <div class="custom-control custom-checkbox image-checkbox">
-                <input type="checkbox" class="custom-control-input" id="ck1b">
+                <input type="checkbox" class="custom-control-input" id="stationery" name="brandings" value="Stationery">
                 <label class="custom-control-label" for="ck1b">
                   <div class="card">
                     <img src="../landing/assets/stationery.jpeg" alt="Stationery" id="brand-img" class="img-fluid">
@@ -92,8 +93,8 @@
         </div>
         <div class="col-md-3">
             <div class="custom-control custom-checkbox image-checkbox">
-                <input type="checkbox" class="custom-control-input" id="ck1c">
-                <label class="custom-control-label" for="ck1c">
+                <input type="checkbox" class="custom-control-input" id="website" name="brandings" value="Website">
+                <label class="custom-control-label" for="website">
                   <div class="card">
                     <img src="../landing/assets/website.jpeg" alt="Website" id="brand-img" class="img-fluid">
                     <div class="card-body">
@@ -106,8 +107,8 @@
         </div>
         <div class="col-md-3">
             <div class="custom-control custom-checkbox image-checkbox">
-                <input type="checkbox" class="custom-control-input" id="ck1d">
-                <label class="custom-control-label" for="ck1d">
+                <input type="checkbox" class="custom-control-input" id="banner" name ="brandings" value="Banner">
+                <label class="custom-control-label" for="banner">
                   <div class="card">
                     <img src="../landing/assets/banner.jpeg" alt="Add Banner" alt="Website" id="brand-img" class="img-fluid">
                     <div class="card-body">
@@ -121,9 +122,25 @@
         <div class="submit-offer mt-5 text-center">
           <button type="submit" id="offerbtn">Submit</button>
         </div>
+        <div class="container text-center w-25" id="orders-display">
+          
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Branding Style</th>
+              </tr>
+            </thead>
+            <tbody id="total-orders">
+              <tr>
+                <td id="brandingname"></td>
+              </tr>
+            </tbody>
+          </table> 
+          <p id="brandingtotalprice"></p>
+        </div>
+      </div>
     </div>
-    </div>
-    </div>
+    <!-- Footer -->
     <footer class="text-center text-white">
         <div class="container p-4">
         <section class="mb-4">
