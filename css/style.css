@@ -21,3 +21,18 @@
     opacity: 0.8;
     color: white;
 }
+
+.welcome{
+    color: #C03A46;
+  }
+  .homebtn{
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    padding: 16px 30px;
+    border-radius: 30px;
+    background:#467092;
+    color: white;
+    cursor: pointer;
+  
+  }
