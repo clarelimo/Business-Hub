@@ -1,26 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
-    <title>Business-Hub</title>
-    <script src="./js/jquery.js"></script>
-    <script src="bootstrap-5.0.2-dist/js"></script>
-    <link rel=”stylesheet” href=”bootstrap-5.0.2-dist/css/bootstrap.css”>
-    <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BUSSINESS HUB</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="signup.css">
-
-</head>
-<body>
+    <link  href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link  href="css/signup.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
     <div class="container-fluid" id="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-light bg-black">
-            <div class="container-fluid" style="background-color: black;position: absolute;width: 100%;">
-              <a class="navbar-brand" href="signup.html">
-                  <h1 class="h1">Business Hub</h1></a>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style="margin-top: -70px;">
-                <ul class="navbar-nav " style="margin-left: 75%;display: inline-flex;gap: 70px;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><h1>Business Hub</h1></a>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href="signup.html">Sign Up</a>
                   </li>
@@ -28,74 +24,74 @@
                     <a class="nav-link" href="signin.html">Sign In</a>
                   </li>
                 </ul>
-                  </li>
-                </ul>
               </div>
             </div>
           </nav>
     </div>
+    <div class="bg-image" style="background-image: url('business chart.png');height: 100vh;border: none;width: 100vw;margin-left: 20%;background-repeat: no-repeat;"></div>
+    <div class="mb-3" style="margin-top:-50%;margin-left:38%;">
+      <div class="frame">
+        <div class="frame2">
+          <h1 style="text-align: center;color: #467092;">SIGN UP</h1>
+            <label for="exampleFormControlInput1" class="form-label"style="color: #467092;margin-left:60px;">First Name: </label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John" style="width: 304px;margin-left: 150px;margin-top: -7%;">
+            <label for="exampleFormControlInput1" class="form-label"style="color: #467092;margin-left:60px;margin-top:10px">Last Name: </label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Doe"style="width: 304px;margin-left: 150px;margin-top:-7%">
+            <label for="exampleFormControlInput1" class="form-label"style="color: #467092;margin-left:60px;margin-top:10px">Email address:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"style="width: 290px;margin-left: 164px;margin-top:-7%">
+            <label for="exampleFormControlInput1" class="form-label"style="color: #467092;margin-left:60px;margin-top:10px">Phone Number: </label>
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="+254" style="width: 278px;margin-left: 176px;margin-top: -7%;margin-top:-7%">
+            <label for="exampleFormControlTextarea1" class="form-label"style="color: #467092; margin-left:12%;">Content:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" spellcheck="false" style="width: 90%;height: 35%;margin-left: 3%;"></textarea>
+            <button type="submit" class="btn btn-primary" style="background-color: black;margin-left: 41%;margin-top: 10%;">Submit</button>
+       </div>
+       </div>
+       </div>
+    </div>
+   
+   
 
-    <div class="mb-3">
-      <div>
-      <img src="business chart.png" style="opacity:0.5;width: 963px;height: 685px;left: 175px;top: 128px;border-radius: 30px;margin-left: 20%;margin-top: 4%;">
-      </div>
-      <div class="bgform">
-          <div class="topbgform">
-            <h1 style="margin-left: -100%;margin-top: -45%;position: absolute;width: 165px;height: 56px;left: 657px;top: 238px;font-family: Roboto;font-style: normal;font-weight: normal;font-size: 31px;line-height: 36px;">SIGN UP</h1>
-            <label for="floatingInput"style="margin-top: 20%;position: absolute;margin-left: 10%;font-size: 25px;";>Firstname: </label>
-                <input type="text" class="form-control" id="floatingInput" placeholder="firstname"style="position: absolute;margin-top: 20%;margin-left: 38%;width: 50%;height: 4%;border-radius: 50px;">
-              </div>
-              <label for="floatingInput"style="margin-top: 30%;position: absolute;margin-left: 13%;font-size: 25px;";>Lastname: </label>
-                <input type="text" class="form-control" id="floatingInput" placeholder="secondname"style="position: absolute;margin-top: 30%;margin-left: 40%;width: 50%;height: 4%;border-radius: 50px;">
-                <label for="floatingInput"style="margin-top: 40%;position: absolute;margin-left: 13%;font-size: 25px;";>Email address: </label>
-                <input type="email" class="form-control" id="floatingInput" placeholder="name@gmail.com"style="position: absolute;margin-top: 40%;margin-left: 45%;width: 50%;height: 4%;border-radius: 50px;">
-                <label for="floatingInput"style="margin-top: 50%;position: absolute;margin-left: 13%;font-size: 25px;";>Phone Number: </label>
-                <input type="number" class="form-control" id="floatingInput" placeholder="phonenumber"style="position: absolute;margin-top: 50%;margin-left: 47%;width: 50%;height: 4%;border-radius: 50px;">
-                <div class="form-floating">
-                  <label for="floatingTextarea2"style="margin-top: 60%;position: absolute;margin-left: 13%;font-size: 25px;">Comments:</label>
-                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px;position: absolute;margin-top: 60%;margin-left: 37%;width: 60%;"></textarea>
-                  <button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off" aria-pressed="true"style="margin-left: 35%;margin-top: 90%;height:50px;width:150px;color:white;background-color:black;border-radius:50px; transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;">SUBMIT</button>
-
-                </div>
-              </div>
-          </div>
-      </div>
     <footer class="text-center text-white">
-        <div class="container p-4">
-          <section class="mb-4" style="margin-left: 38%;">
-                  <a href="#" class="fa fa-facebook"></a>
-                  <a href="#" class="fa fa-twitter"></a>
-                  <a href="#" class="fa fa-google"></a>
-                  <a href="#" class="fa fa-linkedin"></a>
-                  <a href="#" class="fa fa-youtube"></a>
-                  <a href="#" class="fa fa-instagram"></a>  
-              </section>
-        <section class="">
-            <form action="" style="margin-left:46%;">
-            <div class="row d-flex justify-content-center">
-                <div class="col-auto">
-                <p class="pt-2">
-                  <strong style="color: white;position: absolute;margin-left: -23%;margin-top: 1%;font-size: 17px;">Sign up for our newsletter</strong>
-                </p>
-                </div>
-                <div class="col-md-5 col-12">
-                <div class="form-outline form-white mb-4">
-                  <input type="email" id="form5Example2" class="form-control" style="padding: 1%;width: 70%;margin-left: -20%;">
-                  <label class="form-label" for="form5Example2" style="color: white;position: absolute;margin-left: -20%;margin-top: 3%;">Email address</label>               </div>
-                </div>
-                <div class="col-auto">
-                  <button type="submit" class="btn btn-outline-light mb-4" style="background-color: black;color: white;border-radius: 50px;margin-left: 55%;width: 20%;padding: 2%;margin-top: 0%;">
-                    Subscribe
-                </button>
-                </div>
-            </div>
-            </form>
-        </section>
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);margin-left: 50%;color: white;">
-            © 2021 Copyright:
-          <a class="text-white" href="#" style="margin-left: 0%;color: white;">The Business Hub</a>
-        </div>
-    </footer>
-    
-</body>
+          <div class="container p-4">
+          <section class="mb-4">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-google"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-youtube"></a>
+              <a href="#" class="fa fa-instagram"></a>
+          </section>
+          <section class="">
+              <form action="">
+              <div class="row d-flex justify-content-center">
+                  <div class="col-auto">
+                  <p class="pt-2">
+                      <strong>Sign up for our newsletter</strong>
+                  </p>
+                  </div>
+                  <div class="col-md-5 col-12">
+                  <div class="form-outline form-white mb-4">
+                      <input type="email" id="form5Example2" class="form-control" />
+                      <label class="form-label" for="form5Example2">Email address</label>
+                  </div>
+                  </div>
+                  <div class="col-auto">
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                      Subscribe
+                  </button>
+                  </div>
+              </div>
+              </form>
+          </section>
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          ©️ 2021 Copyright:
+          <a class="text-white" href="#">The Business Hub</a>
+          </div>
+      </footer>
+
+
+
+
+
+  </body>
 </html>
